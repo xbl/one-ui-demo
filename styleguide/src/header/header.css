@@ -1,4 +1,4 @@
-x-header{
+header{
   background: #000;
   display: block;
   padding: 0.5rem;
@@ -9,7 +9,7 @@ x-header{
   right: 0;
 }
 
-x-header .icon-codepen-box{
+header .icon-codepen-box{
   fill: white;
   width: 25px;
   height: 25px;
@@ -17,7 +17,7 @@ x-header .icon-codepen-box{
   vertical-align: middle;
 }
 
-x-header a {
+header a {
   color: #fff;
   text-decoration: none;
   vertical-align: middle;

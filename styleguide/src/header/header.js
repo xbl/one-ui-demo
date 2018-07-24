@@ -5,21 +5,11 @@ export default class XHeader {
   get tagName() {
     return 'x-header';
   }
+
   get props() {
     return {
       abc: String
     }
-  }
-
-  data() {
-    return {
-      name: '谢小呆',
-      age: 18,
-      children: {
-        name: 'hello',
-        age: 1
-      }
-    };
   }
 
   get template() {
@@ -33,7 +23,6 @@ export default class XHeader {
   get methods() {
     return {
       logo: function() {
-        // alert('logo');
         this.$emit('logo', {a: 1});
       },
     }
