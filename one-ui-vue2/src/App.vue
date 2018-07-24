@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <my-div v-show="show">
-      <button @click="hideDiv">abc</button>
-    </my-div>
+    <x-header v-show="show" @logo="clickLogo"></x-header>
+    <img src="./assets/logo.png" >
+    <button @click="hideDiv">abc</button>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -23,6 +22,9 @@ export default {
   methods: {
     hideDiv () {
       this.show = false
+    },
+    clickLogo() {
+      alert('click logo!')
     }
   }
 }
@@ -37,4 +39,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+body{ margin: 0; }
 </style>

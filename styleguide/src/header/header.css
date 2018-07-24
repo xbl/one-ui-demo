@@ -1,0 +1,24 @@
+x-header{
+  background: #000;
+  display: block;
+  padding: 0.5rem;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+x-header .icon-codepen-box{
+  fill: white;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+x-header a {
+  color: #fff;
+  text-decoration: none;
+  vertical-align: middle;
+}

@@ -5,9 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+    h3{background: red;}
+    </style>
 </head>
 <body>
-    <script src="./index.js"></script>
-    <my-abc country="123565555" abc='abc-123'></my-abc>
+    <script src="./src/index.js"></script>
+    <x-header id="header" country="123565555" abc='abc-123'></x-header>
+    <script>
+    var header = document.getElementById('header');
+    header.addEventListener('logo', function (event) {
+        console.log(event.detail);
+    });
+    </script>
 </body>
 </html>

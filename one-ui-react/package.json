@@ -12,8 +12,5 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "one-ui": "git+https://github.com/xbl/one-ui.git"
   }
 }
